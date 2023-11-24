@@ -38,7 +38,7 @@ DATE_FORMAT_7 = "%a, %-d %b %Y %H:%M:%S -0700"
 
 useSSL = False
 address = "127.0.0.1"
-smtpPort = 2500
+smtpPort = 1025
 
 
 def makeHTMLMessage(subject, date, dateFormat, body):
