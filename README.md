@@ -20,4 +20,9 @@ Paste the command into your terminal to run the email script, Python needs to be
 $ wget -qO- https://raw.githubusercontent.com/sedkodes/mailslurper/main/send-mail-test.py | python
 ```
 
+*Rather*, use this:
+```
+wget -qO- https://raw.githubusercontent.com/abraj/mailslurper/main/send-mail-test.py | python3
+```
+
 and then refresh your inbox at `http://localhost:8080` to see your email!
